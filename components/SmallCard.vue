@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <img :src="require(`@/assests/images/${card.image || 'fe1.jpg'}`)" alt="fe" class="image">
+    <div calss="card-container">
+        <img class="image" :src="require(`@/assets/images/${card.image || 'fe1.jpg'}`)" alt="fe">
     </div>
 </template>
 
