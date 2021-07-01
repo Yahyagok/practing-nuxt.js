@@ -6,6 +6,11 @@
         <p class="snippet" >
             {{ cardsSection.snippet }}
         </p>
+
+
+
+
+
         <div class="cards-container">
              <LargeCard 
                 v-for="card in cardsSection.cards"
@@ -13,6 +18,14 @@
                 :card="card"
             />
         </div>
+
+
+
+
+
+
+
+        
     </div>
 </template>
 

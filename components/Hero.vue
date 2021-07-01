@@ -2,7 +2,7 @@
     <div class="Hero container">
         <div class="text-container">
             <h1 class="header">Find your Fire Extinguisher</h1>
-            <p class="snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!</p>
+            <p class="snippet">{{data3}}</p>
             <button class="button btn">Start Looking</button>
         </div>
         <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
@@ -10,7 +10,13 @@
 </template>
 
 <script>
+import { mapState } from "vuex"
     export default {
+        computed: {
+            ...mapState (['data1', 
+            'data3', 
+            ])
+        }
     }
 </script>
 

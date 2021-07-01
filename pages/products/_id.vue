@@ -1,5 +1,6 @@
 <template>
-    <div class="container">       
+    <div class="container">    
+        this products / id    
     </div>
 </template>
 
