@@ -1,6 +1,5 @@
  export const state = () => ({
      myRentals: [
-         
         {
             id: 1,
             title: "Dry Powder Extinguisher",
