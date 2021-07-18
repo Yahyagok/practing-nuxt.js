@@ -8,7 +8,6 @@
             image: "fe7.jpg"
         }
      ],
-
     products: [
         {
             id: 1,
