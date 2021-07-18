@@ -13,7 +13,6 @@
         props: ['item']
     }
 </script>
-
 <style scoped>
     .item-container {
         display: flex;
