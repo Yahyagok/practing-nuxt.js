@@ -190,5 +190,4 @@ export const mutations = {
         let item = state.products.find(product => product.id == id)
         state.myRentals.push(item)
     }
-
 }
