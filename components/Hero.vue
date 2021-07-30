@@ -8,7 +8,6 @@
         <img class="image" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
     </div>
 </template>
-
 <script>
     export default {
     }
