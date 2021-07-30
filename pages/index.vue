@@ -15,7 +15,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { largeCardSections, smallCardSections } from "@/assets/data.js";
 export default {
