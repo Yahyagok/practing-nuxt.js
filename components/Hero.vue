@@ -13,7 +13,6 @@
     export default {
     }
 </script>
-
 <style scoped>
     .Hero {
         height: 50vh;
