@@ -13,7 +13,6 @@
         props: ['card'],
     }
 </script>
-
 <style scoped>
     .card {
         width: 31.5%;
