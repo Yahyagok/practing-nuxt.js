@@ -21,7 +21,6 @@
         props: ['cardsSection']
     }
 </script>
-
 <style scoped>
 .container {
     margin-top: 2rem;
