@@ -7,7 +7,6 @@
         </p>
     </NuxtLink>
 </template>
-
 <script>
     export default {
         props: ['card'],
